@@ -1,0 +1,98 @@
+body {
+  background-color: #d2cddc;
+  margin: 5%;
+}
+.innerbg {
+  background-color: #b3afb7;
+  margin: 2%;
+}
+.bg {
+  background-color: #ffffff;
+}
+nav  {
+  display: flex;
+  /* justify-content: space-between;
+  text-decoration: none; */
+}
+nav div{
+    margin-left: 10%;
+}
+nav a{
+    text-decoration: none;
+    padding: 20px;
+}
+nav button{
+    border-radius: 10%;
+    background-color: blue; 
+}
+.btn button {
+  background-color: #4fa790;
+  height: 100%;
+  border-radius: 10%;
+}
+.picture {
+  margin-left: 20%;
+  margin-top: -25%;
+}
+.logo2{
+    text-align: center;
+}
+.main {
+  display: flex;
+  justify-content: space-between;
+  background-color: whitesmoke;
+  padding: 10%;
+}
+.logo3{
+    float: right;
+}
+.section{
+    display: flex;
+}
+ 
+/* .logo3{
+    float: right;
+    padding-bottom: 50%;
+}  */
+.subscribe h1 {
+  font-size: 40px;
+  margin-left: 12%;
+}
+.subscribe h4{
+  margin-left: 20%;
+}
+ .subscribe p {
+    background-color: rgb(255, 255, 255);
+    box-shadow: 10px 10px 30px rgb(205, 238, 241);
+    width: 620px;
+    border-radius: 8px;
+    margin-left: 15%;
+
+  }
+  .subscribe input {
+    width: 450px;
+    height: 50px;
+    font-size: 20px;
+    border: none;
+    border-top-left-radius: 7%;
+    border-bottom-left-radius: 7%;
+  }
+  .subscribe button {
+    width: 160px;
+    height: 42px;
+    font-size: 20px;
+    color: rgb(255, 255, 255);
+    border: none;
+    background-color: #4379df;
+    border-radius: 8px;
+  } 
+  .subscribe {
+    background-color: rgb(247, 253, 253);
+    padding: 5% 0% 5% 15%;
+    border-radius: 8px;
+    margin-top: 10%;
+  } 
+.lastsection{
+    padding: 10%;
+}
+
