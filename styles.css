@@ -1,6 +1,7 @@
 body {
   background-color: #d2cddc;
   margin: 5%;
+
 }
 .innerbg {
   background-color: #b3afb7;
@@ -11,24 +12,41 @@ body {
 }
 nav  {
   display: flex;
-  /* justify-content: space-between;
-  text-decoration: none; */
-}
-nav div{
-    margin-left: 10%;
+  padding-top: 4%;
+  padding-right: 2%;
+  justify-content: space-between;
 }
 nav a{
     text-decoration: none;
     padding: 20px;
 }
 nav button{
-    border-radius: 10%;
-    background-color: blue; 
+  height: 40%;
+  color: white;
+  float: right;
+  /* margin-top: -5%; */
+  border-radius: 20%;
+  background-color: #2411ce;
 }
-.btn button {
-  background-color: #4fa790;
-  height: 100%;
-  border-radius: 10%;
+/* .icons{
+  display: flex;
+  padding: 20px;
+  /* flex-wrap: wrap; */
+  /* gap: 10%;
+}
+.icons p{
+padding-bottom: -10px;
+}  */
+.column{
+  padding-left: 10%;
+}
+.btn button{
+  height: 50px;
+  width: 10%;
+  background-color: #50A790;
+  border-radius: 20%;
+  justify-content: space-between;
+
 }
 .picture {
   margin-left: 20%;
@@ -43,8 +61,23 @@ nav button{
   background-color: whitesmoke;
   padding: 10%;
 }
+.card1{
+  background-color: #F6F9FA;
+}
+.card2{
+  background-color: #50A791;
+}
+.card3{
+  background-color: #EEF2FF;
+}
 .logo3{
     float: right;
+}
+.logo3 button{
+  background-color: white;
+  border-radius: 20%;
+  height: 7%;
+  width: 20vw;
 }
 .section{
     display: flex;
