@@ -1,131 +1,180 @@
 body {
   background-color: #d2cddc;
-  margin: 5%;
-
-}
-.innerbg {
-  background-color: #b3afb7;
   margin: 2%;
 }
 .bg {
   background-color: #ffffff;
+  padding-top: 5%;
 }
-nav  {
+.logo {
+  padding-left: 12%;
+}
+nav {
+  margin-top: -5%;
   display: flex;
-  padding-top: 4%;
+  float: right;
   padding-right: 2%;
   justify-content: space-between;
 }
-nav a{
-    text-decoration: none;
-    padding: 20px;
+nav a {
+  text-decoration: none;
+  padding: 20px;
 }
-nav button{
-  height: 40%;
+
+nav button {
+  text-align: center;
   color: white;
   float: right;
-  /* margin-top: -5%; */
+  height: 7vh;
+  width: 7vw;
   border-radius: 20%;
   background-color: #2411ce;
 }
-/* .icons{
-  display: flex;
-  padding: 20px;
-  /* flex-wrap: wrap; */
-  /* gap: 10%;
+.agencyhelp {
+  background-color: #ffffff;
 }
-.icons p{
-padding-bottom: -10px;
-}  */
-.column{
+.agencyhelp p {
+  color: #abd1c7;
+}
+.icons {
+font-size: 50px;
+  border-radius: 50%;
+  display: flex;
+  padding-left: 10%;
+  flex-wrap: wrap;
+  gap: 5%;
+  
+}
+.insta{
+  
+  background-color: yellow;
+  color: black;
+  border-radius: 50%;
+}
+.bt1{
+  border-radius: 70%;
+  color: rgb(228, 217, 217);
+  background-color: rgb(38, 198, 219);
+}
+.spaces {
+  padding-left: 5%;
+  padding-top: 80px;
+}
+.column {
   padding-left: 10%;
 }
-.btn button{
+.btnn{
+  box-shadow: #50a790;
   height: 50px;
   width: 10%;
-  background-color: #50A790;
-  border-radius: 20%;
+  background-color: white;
+  border-radius: 15%;
   justify-content: space-between;
-
+}
+.btnnn {
+  box-shadow: #50a790;
+  height: 50px;
+  width: 10%;
+  background-color: #50a790;
+  border-radius: 15%;
+  justify-content: space-between;
 }
 .picture {
-  margin-left: 20%;
+  margin-left: 55%;
   margin-top: -25%;
 }
-.logo2{
-    text-align: center;
+.logo2 p {
+  padding-left: 45%;
 }
+.logo2 h2 {
+  padding-left: 45%;
+}
+
 .main {
   display: flex;
   justify-content: space-between;
-  background-color: whitesmoke;
   padding: 10%;
 }
-.card1{
-  background-color: #F6F9FA;
+.card1 {
+  background-color: #f6f9fa;
+  text-align: center;
 }
-.card2{
-  background-color: #50A791;
+.card2 {
+  background-color: #50a791;
+  text-align: center;
 }
-.card3{
-  background-color: #EEF2FF;
+.card3 {
+  background-color: #eef2ff;
+  text-align: center;
 }
-.logo3{
-    float: right;
+
+.section {
+  display: flex;
 }
-.logo3 button{
+.logo3 {
+  padding-left: 20%;
+  padding-bottom: 80px;
+}
+.logo3 p {
+  color: #8bdbc6;
+}
+.logo3 button {
   background-color: white;
-  border-radius: 20%;
+  border-radius: 12%;
   height: 7%;
   width: 20vw;
 }
-.section{
-    display: flex;
-}
- 
-/* .logo3{
-    float: right;
-    padding-bottom: 50%;
-}  */
 .subscribe h1 {
   font-size: 40px;
   margin-left: 12%;
 }
-.subscribe h4{
+.subscribe h4 {
   margin-left: 20%;
 }
- .subscribe p {
-    background-color: rgb(255, 255, 255);
-    box-shadow: 10px 10px 30px rgb(205, 238, 241);
-    width: 620px;
-    border-radius: 8px;
-    margin-left: 15%;
-
-  }
-  .subscribe input {
-    width: 450px;
-    height: 50px;
-    font-size: 20px;
-    border: none;
-    border-top-left-radius: 7%;
-    border-bottom-left-radius: 7%;
-  }
-  .subscribe button {
-    width: 160px;
-    height: 42px;
-    font-size: 20px;
-    color: rgb(255, 255, 255);
-    border: none;
-    background-color: #4379df;
-    border-radius: 8px;
-  } 
-  .subscribe {
-    background-color: rgb(247, 253, 253);
-    padding: 5% 0% 5% 15%;
-    border-radius: 8px;
-    margin-top: 10%;
-  } 
-.lastsection{
-    padding: 10%;
+.subscribe p {
+  background-color: rgb(255, 255, 255);
+  box-shadow: 10px 10px 30px rgb(205, 238, 241);
+  width: 620px;
+  border-radius: 8px;
+  margin-left: 15%;
 }
-
+.subscribe input {
+  width: 450px;
+  height: 50px;
+  font-size: 20px;
+  border: none;
+  border-top-left-radius: 7%;
+  border-bottom-left-radius: 7%;
+}
+.subscribe button {
+  width: 160px;
+  height: 42px;
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  border: none;
+  background-color: #4379df;
+  border-radius: 8px;
+}
+.subscribe {
+  background-color: rgb(247, 253, 253);
+  padding: 5% 0% 5% 15%;
+  border-radius: 8px;
+  margin-top: 10%;
+  height: 100%;
+}
+.lastsection {
+  padding: 10%;
+  margin: 0%;
+}
+.lastsection img {
+  float: right;
+  padding-top: 30px;
+  float: right;
+  margin-top: -45%;
+  width: 45%;
+  margin-left: 8%;
+}
+#p2 {
+  background-color: #fef8f8;
+  box-shadow: #eef2ff;
+}
