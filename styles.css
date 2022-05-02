@@ -1,16 +1,20 @@
 body {
   background-color: #d2cddc;
-  margin: 2%;
+  margin: 5%;
 }
 .bg {
-  background-color: #ffffff;
-  padding-top: 5%;
+  padding-top: 1%;
 }
 .logo {
-  padding-left: 12%;
+  padding-left: 20%;
+  padding-right: 20%;
+}
+.nav-section {
+  margin-bottom: 2%;
+  background-color: #ffffff;
 }
 nav {
-  margin-top: -5%;
+  margin-top: 3%;
   display: flex;
   float: right;
   padding-right: 2%;
@@ -37,21 +41,19 @@ nav button {
   color: #abd1c7;
 }
 .icons {
-font-size: 50px;
+  font-size: 50px;
   border-radius: 50%;
   display: flex;
   padding-left: 10%;
   flex-wrap: wrap;
   gap: 5%;
-  
 }
-.insta{
-  
+.insta {
   background-color: yellow;
   color: black;
   border-radius: 50%;
 }
-.bt1{
+.bt1 {
   border-radius: 70%;
   color: rgb(228, 217, 217);
   background-color: rgb(38, 198, 219);
@@ -63,21 +65,27 @@ font-size: 50px;
 .column {
   padding-left: 10%;
 }
-.btnn{
-  box-shadow: #50a790;
-  height: 50px;
-  width: 10%;
-  background-color: white;
-  border-radius: 15%;
+.bttn {
+  display: flex;
   justify-content: space-between;
 }
-.btnnn {
-  box-shadow: #50a790;
+.btnn {
+  box-shadow: #bececa;
+  margin-bottom: 30px;
   height: 50px;
   width: 10%;
+  text-align: center;
+  background-color: white;
+  border-radius: 15%;
+}
+.btnnn {
+  margin-top: 2px;
+  box-shadow: #778682;
+  height: 50px;
+  width: 10%;
+  text-align: center;
   background-color: #50a790;
   border-radius: 15%;
-  justify-content: space-between;
 }
 .picture {
   margin-left: 55%;
@@ -85,11 +93,16 @@ font-size: 50px;
 }
 .logo2 p {
   padding-left: 45%;
+  color: #50a790;
+  opacity: 100%;
 }
 .logo2 h2 {
   padding-left: 45%;
 }
-
+.design {
+  margin-left: 20%;
+  font-size: 20px;
+}
 .main {
   display: flex;
   justify-content: space-between;
@@ -106,22 +119,32 @@ font-size: 50px;
 .card3 {
   background-color: #eef2ff;
   text-align: center;
+  margin-right: 80px;
 }
 
 .section {
   display: flex;
+  background-color: #ffffff;
 }
 .logo3 {
   padding-left: 20%;
   padding-bottom: 80px;
 }
+.logo3 span {
+  font-size: 38px;
+  border-radius: 25px;
+  background-color: blue;
+  width: 50px;
+}
 .logo3 p {
-  color: #8bdbc6;
+  color: #81f5d6;
 }
 .logo3 button {
-  background-color: white;
-  border-radius: 12%;
-  height: 7%;
+  background-color: rgb(253, 201, 201);
+  border-radius: 20px;
+  border: solid 2px;
+  border: none;
+  height: 10%;
   width: 20vw;
 }
 .subscribe h1 {
@@ -156,15 +179,17 @@ font-size: 50px;
   border-radius: 8px;
 }
 .subscribe {
-  background-color: rgb(247, 253, 253);
-  padding: 5% 0% 5% 15%;
+  background-color: #ffffff;
+  padding: 0% 5% 5% 15%;
   border-radius: 8px;
-  margin-top: 10%;
   height: 100%;
 }
 .lastsection {
-  padding: 10%;
-  margin: 0%;
+  padding-bottom: 20%;
+  padding-left: 20%;
+  padding-top: 30px;
+  background-color: #ffffff;
+  height: 100%;
 }
 .lastsection img {
   float: right;
@@ -174,7 +199,62 @@ font-size: 50px;
   width: 45%;
   margin-left: 8%;
 }
+.lastsection button {
+  margin-top: 2px;
+  box-shadow: #778682;
+  height: 50px;
+  width: 10%;
+  text-align: center;
+  background-color: #50a790;
+  border-radius: 15%;
+}
+.log {
+  padding-top: -3%;
+  margin-right: 80%;
+}
 #p2 {
   background-color: #fef8f8;
   box-shadow: #eef2ff;
+}
+.one h1 {
+  margin-left: -15%;
+  border-radius: 25px;
+  border: none;
+  width: 50px;
+  text-align: center;
+  font-size: 36px;
+  margin-top: 5%;
+  background-color: #50a791;
+}
+.two h1 {
+  margin-left: -15%;
+  color: white;
+  border: none;
+  border-radius: 25%;
+  width: 50px;
+  font-size: 36px;
+  margin-top: 15%;
+  text-align: center;
+  background-color: #2411ce;
+}
+.three h1 {
+  margin-left: -15%;
+  border-radius: 25px;
+  border: none;
+  width: 50px;
+  text-align: center;
+  font-size: 36px;
+  margin-top: 20%;
+  background-color: #fcdf3b;
+}
+.three h4 {
+  margin-top: -20%;
+  padding: 10px;
+}
+.two h4 {
+  margin-top: -20%;
+  padding: 10px;
+}
+.logo3 button {
+  padding: 10px;
 }
