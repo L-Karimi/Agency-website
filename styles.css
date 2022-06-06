@@ -1,38 +1,39 @@
 body {
   background-color: #d2cddc;
-  margin: 5%;
-}
-.bg {
-  padding-top: 1%;
+  margin-top: 0%;
+  margin-left: 7%;
+  margin-right: 7%;
 }
 .logo {
   padding-left: 20%;
   padding-right: 20%;
 }
-.nav-section {
-  margin-bottom: 2%;
-  background-color: #ffffff;
-}
-nav {
-  margin-top: 3%;
-  display: flex;
-  float: right;
-  padding-right: 2%;
-  justify-content: space-between;
-}
-nav a {
-  text-decoration: none;
-  padding: 20px;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
 }
 
-nav button {
-  text-align: center;
-  color: white;
+li {
   float: right;
-  height: 7vh;
-  width: 7vw;
-  border-radius: 20%;
-  background-color: #2411ce;
+}
+
+
+li a {
+  display: block;
+  color: rgb(8, 8, 8);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+p span{
+  color: yellow;
+}
+ul button{
+  float: right;
+  background-color: blue;
+  border-radius: 15%;
 }
 .agencyhelp {
   background-color: #ffffff;
@@ -49,18 +50,18 @@ nav button {
   gap: 5%;
 }
 .insta {
-  background-color: yellow;
   color: black;
-  border-radius: 50%;
+  height: 70px;
+  width: 80px;
+
 }
 .bt1 {
-  border-radius: 70%;
   color: rgb(228, 217, 217);
-  background-color: rgb(38, 198, 219);
+  box-shadow: #2411ce;
 }
 .spaces {
   padding-left: 5%;
-  padding-top: 80px;
+  padding-top: 20px;
 }
 .column {
   padding-left: 10%;
@@ -135,6 +136,7 @@ nav button {
   padding-left: 20%;
   padding-bottom: 80px;
 }
+
 .logo3 span {
   font-size: 38px;
   border-radius: 25px;
@@ -224,45 +226,10 @@ nav button {
   background-color: #fef8f8;
   box-shadow: #eef2ff;
 }
-.one h1 {
-  /* margin-left: -15%; */
-  border-radius: 25px;
-  border: none;
-  width: 50px;
-  text-align: center;
-  font-size: 36px;
-  /* margin-top: 5%; */
-  background-color: #50a791;
-}
-.two h1 {
-  margin-left: -15%;
-  color: white;
-  border: none;
-  border-radius: 25%;
-  width: 50px;
-  font-size: 36px;
-  margin-top: 15%;
-  text-align: center;
-  background-color: #2411ce;
-}
-.three h1 {
-  margin-left: -15%;
-  border-radius: 25px;
-  border: none;
-  width: 50px;
-  text-align: center;
-  font-size: 36px;
-  margin-top: 20%;
-  background-color: #fcdf3b;
-}
-.three h4 {
-  margin-top: -20%;
-  padding: 10px;
-}
-.two h4 {
-  margin-top: -20%;
-  padding: 10px;
-}
+
 .logo3 button {
   padding: 10px;
+}
+.heading-page{
+  background-color: whitesmoke;
 }
